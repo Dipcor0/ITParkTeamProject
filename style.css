@@ -1,0 +1,109 @@
+/* section-12 start */
+
+body,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"DM Sans", sans-serif;;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+.section12{
+    background-color: #222222;
+}
+
+.section12__subscription{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section12__heading{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 130%;
+    color: #FFF4F2;
+    max-width: 693px;
+}
+
+.section12__mailfield{
+    position: relative;
+}
+
+.section12__mail{
+    border-radius: 16px;
+    padding: 23.5px 152px 23.5px 24px;
+    width: 564px;
+    border: none;
+    outline: none;
+}
+
+.section12__mail::placeholder{
+    line-height: 160%;
+    color: #AAAAAA;
+}
+
+.section12__button{
+    border-radius: 8px;
+    background-color: #F44817;
+    padding: 16px 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+    position: absolute;
+    top: 7px;
+    right:10px;
+    cursor: pointer;
+}
+
+.section12__agreement{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.section12__agreement-checkbox{
+    appearance: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.section12__agreement-checkbox:checked{
+    background-color: #F44817;
+}
+
+.section12__agreement-text{
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;;
+}
+
+.section12__privacy-link{
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.section12__logo-and-links{
+    margin-top: 80px;
+    padding-top: 80px;
+    border-top: 0.2px solid white;
+}
+
+
+/* section-12 end */
