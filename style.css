@@ -1,0 +1,98 @@
+body, * {
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+}
+
+.container {
+    width: 1340px;
+    margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-2-text {
+    width: 574px;
+}
+
+.section-2 .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #4F54C8;
+    background-color: #EDEFFF;
+    padding: 6px 16px;
+    border-radius: 50px;
+}
+
+.section-2 .badge-img {
+    width: 20px;     
+    height: 20px;
+    display: block;
+}
+
+.section-2 .headline {
+    margin-block: 32px 50px;
+}
+
+.section-2 .headline .title {
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 130%;
+    color: #222222;
+}
+
+.section-2 .headline .subtitle {
+    font-size: 16px;
+    line-height: 160%;
+    color: #656565;
+}
+
+.section-2-btn {
+   display: flex;
+   justify-content: flex-start;
+   gap: 24px;
+}
+
+.section-2-btn .btn {
+    border-radius: 8px;
+    padding: 16px 24px;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+.section-2-btn .btn-get {
+    color: #fff;
+    background-color: #F44817;
+}
+
+.section-2-btn .btn-border {
+    border: 0.5px solid #222222;
+    color: #222222;
+}
+
+.section-2 .additional-info {
+    display: flex;
+    gap: 24px;
+    margin-top: 171.5px;
+}
+
+.section-2 .additional-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-2 .additional-item .total {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 130%;
+    color: #222222;
+}
+
+.section-2 .additional-item .label {
+    font-size: 16px;
+    line-height: 160%;
+    color: #656565;
+}
