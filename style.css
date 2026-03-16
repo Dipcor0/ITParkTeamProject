@@ -95,15 +95,90 @@ a {
     cursor: pointer;
 }
 
-.section-3__card-btn:hover {
+ .section-3__cards-wrapper:hover {
+    background-color: #EDEFFF;
+}
+ 
+ .section-3__cards-wrapper:hover .section-3__card-btn {
     background-color: #4F54C8;
     color: #FFFFFF;
 }
 
- .section-3__cards-wrapper:hover {
-    background-color: #EDEFFF;
-}
 
+
+@media screen and (max-width: 576px) {
+
+    .container {
+        margin-inline: 16px;
+    }
+
+    .section-3__card {
+        max-width: 173px;
+        max-height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-3__cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .section-3__text-card {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 125px;
+        margin-top: 32px;
+        height: 182px;
+    }
+
+    .lg-height {
+        height: 204px;
+    }   
+
+    .section-3__title-text-card {
+        margin-bottom: 6px;
+        font-size: 18px;
+        line-height: 130%;
+    }
+
+    .section-3__subtitle-text-card {
+        font-size: 14px;
+        line-height: 160%;
+    }
+
+    .section-3__card-btn {
+        padding: 0;
+        color: #F44817;
+        border: none;
+        text-decoration: underline;
+        left: -50px;
+        font-size: 14px;
+    }
+
+    .section-3__cards-wrapper:hover {
+        background-color: #EDEFFF;
+    }
+
+    .section-3__cards-wrapper:hover  .section-3__card-btn {
+        background-color: transparent;
+        color: #4F54C8;
+    }
+
+    .section-3__card-img {
+        object-fit: cover;
+        max-width: 125px;
+        max-height: 121.6px;
+        margin: 0 auto;
+    }
+
+    .section-3__cards-wrapper {
+        max-width: 173px;
+        padding: 24px;
+    }
+}
 
 
 
