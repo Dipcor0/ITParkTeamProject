@@ -11,6 +11,8 @@ body,
     font-family:"DM Sans", sans-serif;
 }
 
+/* section-3 start */
+
 a {
     text-decoration: none;
 }
@@ -103,11 +105,12 @@ a {
     background-color: #4F54C8;
     color: #FFFFFF;
 }
-
+/* section-3 end */
 
 
 @media screen and (max-width: 576px) {
 
+/* .section-3 start */
     .container {
         margin-inline: 16px;
     }
@@ -178,6 +181,8 @@ a {
         max-width: 173px;
         padding: 24px;
     }
+/* section-3 end */
+
 }
 
 
