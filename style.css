@@ -7,7 +7,7 @@ body, * {
 
 .container {
     max-width: 1340px;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .section-1 {
@@ -59,7 +59,8 @@ body, * {
 
 .section-1 nav a:hover {
     color: #222222;
-    font-weight: 600;
+    /* font-weight: 600; */
+    text-shadow: 0 0 1px #222222;
 }
 
 .section-1 .btn {
