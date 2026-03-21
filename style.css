@@ -99,11 +99,14 @@ a {
 
  .section-3__cards-wrapper:hover {
     background-color: #EDEFFF;
+    transition: 0.8s;
 }
  
  .section-3__cards-wrapper:hover .section-3__card-btn {
     background-color: #4F54C8;
     color: #FFFFFF;
+    border: none;
+    transition: 0.8s;
 }
 /* section-3 end */
 
@@ -168,6 +171,8 @@ a {
     .section-3__cards-wrapper:hover  .section-3__card-btn {
         background-color: transparent;
         color: #4F54C8;
+        padding: 0;
+        transition: 0s;
     }
 
     .section-3__card-img {
