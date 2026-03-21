@@ -218,13 +218,17 @@ ul{
         flex-wrap: wrap;
         padding: 40px 24px 0px 24px;
         margin-top: 50px;
-        justify-content: center;
+        justify-content: space-between;
         gap: 40px;
     }
     /* section-12 end */
 }
 
 @media screen and (max-width:1104px) {
+
+    .section12__logo-and-links{
+        justify-content: center;
+    }
     
     .section12__logo-wrapper{
         display: flex;
