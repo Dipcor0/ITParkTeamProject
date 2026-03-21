@@ -111,7 +111,7 @@ a {
 /* section-3 end */
 
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 574px) {
 
 /* .section-3 start */
     .container {
@@ -120,6 +120,7 @@ a {
 
     .section-3__card {
         max-width: 173px;
+        max-height: 405.6px;
         max-height: fit-content;
         display: flex;
         flex-direction: column;
