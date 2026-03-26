@@ -4,17 +4,21 @@ body, * {
 }
 
 .container {
-    width: 1340px;
+    max-width: 1340px;
+    width: 100%;
     margin: 0 auto;
+    padding: 0 16px; 
 }
 
 .container-flex {
     display: flex;
     justify-content: space-between;
+    gap: 40px;
 }
 
 .section-2-text {
-    width: 574px;
+    max-width: 574px;
+    width: 100%;
 }
 
 .section-2 .badge {
@@ -31,6 +35,11 @@ body, * {
     width: 20px;     
     height: 20px;
     display: block;
+}
+
+.section-2 .badge span {
+    font-size: 16px;
+    line-height: 160%;
 }
 
 .section-2 .headline {
@@ -73,10 +82,15 @@ body, * {
     color: #222222;
 }
 
+ .photo-mobile {
+    display: none;
+ }
+
 .section-2 .additional-info {
     display: flex;
     gap: 24px;
     margin-top: 171.5px;
+
 }
 
 .section-2 .additional-item {
@@ -95,4 +109,45 @@ body, * {
     font-size: 16px;
     line-height: 160%;
     color: #656565;
+}
+
+
+@media screen and (max-width: 576px) {
+    .container-flex {
+     flex-direction: column;
+    }
+   .section-2 .badge {
+    padding: 6px 10px;
+   } 
+   .section-2 .badge-img {
+    width: 14px;
+    height: 14px;
+   }
+   .section-2 .badge span {
+    font-size: 12px;
+   }
+   .section-2 .headline .title {
+    font-size: 32px;
+   }
+   .section-2 .headline .subtitle {
+    font-size: 14px;
+   }
+   .photo-mobile {
+    display: block;
+    margin: 32px auto 40px;
+   }
+   .section-2 .additional-info {
+    margin-top: 0;
+    justify-content: space-between;
+    gap: 16px;
+   }
+   .section-2 .additional-item .total {
+    font-size: 20px;
+   }
+   .section-2 .additional-item .label {
+    font-size: 10px;
+   }
+   .photo-desctop {
+    display: none;
+   }
 }
