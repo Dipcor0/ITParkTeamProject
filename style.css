@@ -54,6 +54,7 @@ body, * {
     font-weight: 600;
     line-height: 130%;
     color: #222222;
+    max-width: 560px;
 }
 
 .section-2 .headline .subtitle {
@@ -73,6 +74,7 @@ body, * {
     padding: 16px 24px;
     font-weight: 600;
     line-height: 130%;
+    transition: 0.3s;
 }
 
 .section-2-btn .btn-filled {
@@ -83,6 +85,9 @@ body, * {
 .section-2-btn .btn-outline {
     border: 0.5px solid #222222;
     color: #222222;
+}
+.section-2 .btn:hover {
+    scale: 0.95;
 }
 
 .section-2 .photo-mobile {
