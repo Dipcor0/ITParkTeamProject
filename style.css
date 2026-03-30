@@ -3,6 +3,9 @@ body, * {
     text-decoration: none;
 }
 /* section-2-start */
+.section-2 {
+     margin-block: 56px 80px;
+}
 .container {
     max-width: 1340px;
     width: 100%;
@@ -14,7 +17,6 @@ body, * {
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    margin-block: 56px 80px;
 }
 
 .section-2-text {
