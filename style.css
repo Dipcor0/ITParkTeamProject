@@ -1,0 +1,152 @@
+/* section-1 start */
+
+body, * {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+.section-1 {
+    font-family: "DM Sans", sans-serif; 
+    margin-top: 24px;
+    margin-bottom: 56px;
+}
+
+.section-1 a {
+    text-decoration: none;
+}
+
+.section-1 li {
+    list-style: none;
+}
+
+.section-1 .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-1 .logo {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.section-1 span {
+    color: #222222;
+    font-size: 20px;
+    line-height: 100%;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: underline;
+}
+
+.section-1 .nav-list {
+    display: flex;
+    gap: 64px;
+}
+
+.section-1 nav a {
+    color: #656565;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.section-1 nav a:hover {
+    color: #222222;
+    /* font-weight: 600; */
+    text-shadow: 0 0 1px #222222;
+}
+
+.section-1 .btn {
+    color: #FFFFFF;
+    background-color: #F44817;
+    font-size: 16px;
+    line-height: 130%;
+    font-weight: 600;
+    padding: 16px 24px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.section-1 .btn:hover {
+    scale: 0.95;
+}
+
+.section-1 .nav-mobile-btn {
+    appearance: none;
+    width: 18px;
+    height: 13.5px;
+    background-image: url(images/section1/nav-menu.png);
+    z-index: 2;
+}
+
+.section-1 .nav-menu {
+    background-color: #EDEFFF;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 40vw;
+    z-index: 1;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.section-1 .mobile-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section-1 .mobile-item {
+    align-self: flex-start;
+}
+
+.section-1 .nav-mobile-btn,
+.section-1 .nav-menu {
+    display: none;
+}
+/* section-1 end */
+
+
+@media screen and (max-width: 1350px) {
+    /* section-1 start */
+    .section-1 .navbar {
+        padding-inline: 16px;
+    }
+    /* section-1 end */
+}
+
+@media screen and (max-width: 700px) {
+    /* section-1 start */
+    .section-1 .main-nav,
+    .section-1 .btn {
+        display: none;
+    }
+    .section-1 .nav-mobile-btn,
+    .section-1 .btn-mobile {
+        display: block;
+    }
+    .section-1 .nav-mobile-btn:checked + .nav-menu {
+    display: block;
+    }
+    /* section-1 end */
+}
+
+@media screen and (max-width: 576px) {
+    /* section-1 start */
+    
+    .section-1 {
+        margin-bottom: 32px;
+    }
+    .section-1 .nav-menu a {
+        font-size: 14px;
+    }
+    /* section-1 end */
+}
